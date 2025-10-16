@@ -58,9 +58,26 @@ FastMCP eliminates this complexity by providing an opinionated framework that:
 
 ## Installation
 
+### From npm (Recommended)
+
 ```bash
 npm install fastmcp
 ```
+
+### From GitHub (for development/testing)
+
+```bash
+# Install from latest main branch
+npm install github:punkpeye/fastmcp
+
+# Install from specific tag
+npm install github:punkpeye/fastmcp#v1.0.0
+
+# Install from specific commit
+npm install github:punkpeye/fastmcp#commit-hash
+```
+
+> **Note:** When installing from GitHub, the package will automatically build from source using the `prepare` script. This requires TypeScript and build dependencies to be installed.
 
 ## Quickstart
 
